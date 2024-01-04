@@ -1,6 +1,6 @@
 Config = {
 
-    Dev = true,
+    Dev = false,
 
     Detectors = {
 
