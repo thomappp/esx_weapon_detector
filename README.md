@@ -1,1 +1,1 @@
-# esx_weapon_detector
+# ESX Weapon Detector
