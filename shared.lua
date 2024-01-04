@@ -9,14 +9,14 @@ Config = {
             Name = "Police main entrance",
             Coords = vector3(434.83, -981.92, 29.68),
             Radius = 2.5,
-            Bypass = { "police" },
+            Bypass = { "police" }
         },
 
         {
             Name = "Police secondary entrance",
             Coords = vector3(468.62, -1014.43, 25.38),
             Radius = 2.5,
-            Bypass = { "police" },
+            Bypass = { "police" }
         },
 
         -- Main Bank
@@ -24,7 +24,7 @@ Config = {
             Name = "Principal bank",
             Coords = vector3(233.29, 215.89, 106.28),
             Radius = 2.5,
-            Bypass = { "police" },
+            Bypass = { "police" }
         }
 
         --[[
@@ -35,7 +35,7 @@ Config = {
                 Name = "String" -- The name of the detector
                 Coords = vector3(number, number, number), -- The coordinates of the detector
                 Radius = number, -- The radius of the detector
-                Bypass = { "string", "string", ... }, -- Jobs that bypass detector verification and receive notification of detections
+                Bypass = { "string", "string", ... } -- Jobs that bypass detector verification and receive notification of detections
             }
 
         ]]
