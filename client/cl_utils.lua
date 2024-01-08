@@ -20,7 +20,6 @@ if Config.Dev then
                     Time = Time - 1
                     Wait(1000)
 
-
                     if Time == 0 then
                         CanDraw = false
                     end
